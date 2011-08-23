@@ -37,7 +37,7 @@ application generators
 
 get "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js",  "public/javascripts/jquery.js"
 get "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js", "public/javascripts/jquery-ui.js"
-get "http://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
+get "https://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
 
 jquery = <<-JQUERY
 module ActionView::Helpers::AssetTagHelper
@@ -98,9 +98,9 @@ run "rm public/stylesheets/formtastic.css"
 run "rm public/stylesheets/formtastic_changes.css"
 run "rm public/stylesheets/scaffold.css"
 
-get "http://github.com/flyerhzm/rails3-template/raw/master/templates/app/controllers/home_controller.rb", "app/controllers/home_controller.rb"
-get "http://github.com/flyerhzm/rails3-template/raw/master/templates/app/views/home/show.html.haml", "app/views/home/show.html.haml"
-get "http://github.com/flyerhzm/rails3-template/raw/master/templates/spec/support/remarkable.rb", "spec/support/remarkable.rb"
+get "https://github.com/flyerhzm/rails3-template/raw/master/templates/app/controllers/home_controller.rb", "app/controllers/home_controller.rb"
+get "https://github.com/flyerhzm/rails3-template/raw/master/templates/app/views/home/show.html.haml", "app/views/home/show.html.haml"
+get "https://github.com/flyerhzm/rails3-template/raw/master/templates/spec/support/remarkable.rb", "spec/support/remarkable.rb"
 
 file ".gitignore", <<-END
 .DS_Store
